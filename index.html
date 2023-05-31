@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Event Platform Website</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav--sec1">
+          EVENTIFY
+          <div id="eventify--circle"></div>
+        </div>
+        <div class="nav--sec2">
+          <div>ABOUT</div>
+          <div>EVENT</div>
+          <div>SPEAKER</div>
+          <div>TICKET</div>
+          <div>BLOGS</div>
+        </div>
+        <div class="nav--sec3">
+          <div class="search--icon">
+            <img src="icons8-search.svg" alt="" />
+          </div>
+          <div class="contact">
+            <button id="contact--btn">CONTACT</button>
+          </div>
+        </div>
+      </nav>
+
+      <section id="main--body">
+        <div class="body--sec1">
+          <div class="event--theme">
+            <header>
+              <span>9 JUNE 2023</span>
+              <span>LIMITED SEAT</span>
+            </header>
+            <h1>Get Inside The Philosopher's Mind</h1>
+          </div>
+        </div>
+        <div class="body--sec2" id="body-sec2">
+          <h1>
+            The Ultimate Platform for Planning and Promoting Successful Events
+          </h1>
+          <p>
+            Eventify is a leading event and conference website that brings
+            together industry experts, thought leaders and enthusiasts from
+            around the world to share knowledge, network and make lasting
+            connections.
+          </p>
+
+          <div class="see--more--accordion">
+            See more about us
+            <img src="icons8-down-arrow-30.png" width="15px" alt="" />
+          </div>
+
+          <div class="contact--form" id="contact--form">
+            <div id="form">
+              <div class="close-btn-container">
+                <div class="close-btn" id="close--btn">
+                  <div class="bars bar1"></div>
+                  <div class="bars bar2"></div>
+                </div>
+              </div>
+              <p>NAME:</p>
+              <input type="text" placeholder="Full name" id="full-name" />
+              <span class="error-msg" id="name-error"
+                >Field cannot be empty</span
+              >
+              <p>PHONE NUMBER:</p>
+              <input
+                type="number"
+                placeholder="+123 456 7890"
+                id="phone-number"
+              />
+              <span class="error-msg" id="phone-error"
+                >Field cannot be empty</span
+              >
+              <p>EMAIL:</p>
+              <input type="text" placeholder="example@gmail.com" id="email" />
+              <span class="error-msg" id="email-error"
+                >Field cannot be empty</span
+              >
+
+              <div class="submit-btn">
+                <button id="submit--btn">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="buy--ticket">
+          <button>BUY TICKETS</button>
+        </div>
+        <div class="social--media">
+          <div>
+            <img src="icons8-facebook.svg" alt="" />
+          </div>
+          <div>
+            <img src="icons8-twitter.svg" alt="" />
+          </div>
+          <div>
+            <img src="icons8-linkedin.svg" alt="" />
+          </div>
+          <div>
+            <img src="icons8-instagram.svg" alt="" />
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
